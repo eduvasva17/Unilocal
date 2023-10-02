@@ -1,0 +1,112 @@
+<resources>
+    <!--LOGIN STRINGS-->
+    <string name="app_name">Unilocal</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email (ejemplo@gmail.com)</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="title">Inicio de sesión</string>
+    <string name="not_have_account">¿No tienes una cuenta?</string>
+    <string name="login_msg_welcome">Bienvenido</string>
+    <string name="login_msg_user_do_not_exist">No se encontró usuario registrado</string>
+    <string name="login_msg_pass_do_not_match">La contraseña no coincide</string>
+    <string name="login_msg_pass_required">Debe tener al menos 8 caracteres y contener al menos una letra mayúscula, una letra minúscula, y un número.</string>
+
+
+    <!--REGISTER STRINGS-->
+    <string name="register_user_title_register">Formulario de\nregistro</string>
+    <string name="register_user_want_know_you">Queremos conocerte más</string>
+    <string name="register_user_next">Siguiente</string>
+    <string name="register_user_finish">Terminar</string>
+    <string name="register_user_choose_photo">Elegir foto</string>
+    <string name="register_user_msg_email_exists">El correo ya existe</string>
+    <string name="register_user_msg_username_exists">El nombre de usuario ya existe</string>
+    <string name="register_user_msg_phone_exists">El número teléfonico ya existe</string>
+    <string name="register_user_msg_all_inpts_obligatories">Todos los campos son obligatorios</string>
+    <string name="register_user_msg_terms_not_checked">Debes aceptar los términos y condiciones</string>
+    <string name="register_user_msg_user_registered">Se registró el usuario</string>
+    <string name="register_user_msg_allow_permissions">Necesitas habilitar los permisos</string>
+    <string name="register_user_msg_invalid_age">Edad mayor a 18 y menor a 110</string>
+    <string name="register_user_msg_invalid_phone">Teléfono de 10 caracteres</string>
+    <string name="register_now">Registrate ahora</string>
+
+    <!--REGISTER STRINGS FORM 1-->
+    <string name="register_user_name">Nombres</string>
+    <string name="register_user_last_name">Apellidos</string>
+    <string name="register_user_email">Correo</string>
+    <string name="register_user_username">Usuario</string>
+    <string name="register_user_pass">Contraseña</string>
+
+    <!--REGISTER STRINGS FORM 2-->
+    <string name="register_user_phone">Télefono</string>
+    <string name="register_user_country">País</string>
+    <string name="register_user_department">Dpto</string>
+    <string name="register_user_city">Ciudad</string>
+    <string name="register_user_age">Edad</string>
+    <string name="register_user_accept">Aceptar</string>
+    <string name="register_user_terms">términos y condiciones</string>
+    <string name="register_user_choose_button">Pulsa el botón \"Elegir foto\"\n para agregar tú foto de\n perfil</string>
+
+
+    <!--FORGOT PASS STRINGS-->
+    <string name="forgot_sorry">Vaya :(</string>
+    <string name="forgot_recover_pass">Al parecer no recuerdas\ntu contraseña, ¿Quieres\nrecuperarla?</string>
+    <string name="forgot_btn_send">Enviar</string>
+    <string name="forgot_msg_obligatorie_inputs">Este campo es obligatorio</string>
+    <string name="forgot_msg_obligatorie_all_inputs">Todos los campos son obligatorios</string>
+    <string name="forgot_msg_email_registered">El correo está registrado</string>
+    <string name="forgot_msg_passwords_do_not_match">Las contraseñas no coinciden</string>
+    <string name="forgot_msg_pass_changed">Se cambió la contraseña</string>
+
+
+    <!--FORGOT PASS STRINGS FORM 1 -->
+    <string name="forgot_new_pass">Contraseña nueva</string>
+    <string name="forgot_repeat_new_pass">Confirmar contraseña</string>
+    <string name="forgot_invalid_email">Ingresa un correo válido</string>
+
+
+    <!-- REGISTER PLACE STRINGS FORM 1-->
+    <string name="register_place_choose_photos">Elegir fotos</string>
+    <string name="register_place_title_register_place">Registrar lugar</string>
+    <string name="register_place_general_text">Datos generales del lugar necesarios\npara tener...</string>
+    <string name="register_place_name">Nombre del lugar</string>
+    <string name="register_place_description">Descripción del lugar</string>
+    <string name="register_place_open_time">Hora apertura</string>
+    <string name="register_place_close_time">Hora cierre</string>
+    <string name="register_place_phone">Número de contacto</string>
+    <string name="register_place_secundary_phone">Número secundario</string>
+    <string name="register_place_adress">Dirección</string>
+
+    <!-- REGISTER PLACE STRINGS FORM 2-->
+    <string name="register_place_title_choose_place_map">Determinar ubicación</string>
+    <string name="register_place_general_text_choose_map">Determinar la ubicación de tu lugar\nservirá para que las personas lo\nidentifiquen con exactitud</string>
+
+    <!-- REGISTER PLACE STRINGS FORM 3-->
+    <string name="register_place_title_choose_categorie">Elige la categoría</string>
+    <string name="register_place_general_text_choose_categorie">Determinar la categorías ayudara a\ndiferenciar tu lugar de otros</string>
+
+    <!-- REGISTER PLACE STRINGS FORM 4-->
+    <string name="register_place_title_choose_images">Elige las imagenes</string>
+    <string name="register_place_general_text_choose_images">Poner imagenes de tu lugar también\nayudará a que se diferencie de otros</string>
+    <string name="register_place_choose_images">Pulsa el botón \"Elegir fotos\"\npara agregar las fotos del\nlugar</string>
+
+
+    <!-- MAP STRINGS -->
+    <string name="search_bar">Busca Aquí</string>
+
+    <!-- DETAIL PLACE STRINGS -->
+    <string name="c"></string>
+
+    <!-- ITEM PLACE STRINGS -->
+    <string name="item_place_calification">Calificación</string>
+    <string name="item_place_status">Estado</string>
+    <string name="item_place_start_time">Hora Inicio</string>
+    <string name="item_place_closing_time">Hora Cierre</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

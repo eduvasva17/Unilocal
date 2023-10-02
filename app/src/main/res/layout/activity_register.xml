@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.unilocal.activities.RegisterActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/main_title"
+        android:text="@string/register_user_title_register"
+        android:paddingLeft="50dp"
+        style="@style/titles"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/we_want_know_you"
+        android:text="@string/register_user_want_know_you"
+        app:layout_constraintTop_toBottomOf="@+id/main_title"
+        android:paddingLeft="50dp"
+        style="@style/informative_text"/>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/form_pager"
+        android:layout_width="320dp"
+        android:layout_height="450dp"
+        android:background="@drawable/form_register_style"
+        android:layout_gravity="center"
+        android:elevation="30dp"
+        >
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/position_layout"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/Next"
+        android:text="@string/register_user_next"
+        android:layout_gravity="end"
+        style="@style/button_next"
+        />
+
+</LinearLayout>
