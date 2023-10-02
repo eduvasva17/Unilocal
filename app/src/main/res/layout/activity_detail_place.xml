@@ -118,7 +118,7 @@
                             android:layout_marginLeft="2dp"
                             android:layout_marginTop="2dp"
                             android:text="-- / --"
-                            android:textColor="@color/white" />
+                            android:textColor="@color/black" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -138,7 +138,7 @@
                             android:layout_marginLeft="2dp"
                             android:layout_marginTop="2dp"
                             android:text="Texto 2"
-                            android:textColor="@color/white" />
+                            android:textColor="@color/black" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -237,6 +237,7 @@
                         android:layout_marginEnd="10dp"
                         android:fontFamily="@font/font_awesome_6_free_solid_900"
                         android:text="\uf017"
+                        android:textColor="@color/white"
                         android:textSize="20sp" />
 
                     <TextView
@@ -268,6 +269,7 @@
                         android:layout_marginEnd="10dp"
                         android:fontFamily="@font/font_awesome_6_free_solid_900"
                         android:text="\uf124"
+                        android:textColor="@color/white"
                         android:textSize="20sp" />
 
                     <TextView
@@ -275,6 +277,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Dirección del lugar"
+                        android:textColor="@color/white"
                         android:textSize="15sp" />
 
                 </LinearLayout>
@@ -292,6 +295,7 @@
                         android:layout_marginEnd="10dp"
                         android:fontFamily="@font/font_awesome_6_free_solid_900"
                         android:text="\uf095"
+                        android:textColor="@color/background"
                         android:textSize="20sp" />
 
                     <TextView
@@ -299,6 +303,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Teléfono del lugar"
+                        android:textColor="@color/white"
                         android:textSize="15sp" />
 
                 </LinearLayout>
