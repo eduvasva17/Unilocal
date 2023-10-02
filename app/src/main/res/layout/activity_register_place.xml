@@ -4,25 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.unilocal.activities.RegisterActivity"
-    android:orientation="vertical">
+    android:background="@color/material_dynamic_neutral20"
+    android:orientation="vertical"
+    tools:context="com.example.unilocal.activities.RegisterActivity">
 
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/form_pager"
         android:layout_width="match_parent"
-        android:layout_height="640dp"
-        >
+        android:layout_height="640dp">
 
 
     </androidx.viewpager.widget.ViewPager>
 
     <Button
         android:id="@+id/Next"
-        android:text="@string/register_user_next"
+        style="@style/button_next"
         android:layout_below="@+id/form_pager"
         android:layout_alignParentRight="true"
-        style="@style/button_next"
-        />
+        android:text="@string/register_user_next"
+        android:textColor="@color/material_dynamic_neutral20" />
 
 </RelativeLayout>

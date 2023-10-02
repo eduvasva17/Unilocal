@@ -52,7 +52,7 @@
 
 
     <!--FORGOT PASS STRINGS-->
-    <string name="forgot_sorry">Vaya :(</string>
+    <string name="forgot_sorry">¡Vaya!</string>
     <string name="forgot_recover_pass">Al parecer no recuerdas\ntu contraseña, ¿Quieres\nrecuperarla?</string>
     <string name="forgot_btn_send">Enviar</string>
     <string name="forgot_msg_obligatorie_inputs">Este campo es obligatorio</string>

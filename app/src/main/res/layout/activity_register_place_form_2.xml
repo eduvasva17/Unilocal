@@ -10,26 +10,26 @@
 
     <TextView
         android:id="@+id/title"
-        android:text="@string/register_place_title_choose_place_map"
-        tools:ignore="MissingConstraints"
         style="@style/titles"
-        />
+        android:text="@string/register_place_title_choose_place_map"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/informative_text"
-        android:text="@string/register_place_general_text_choose_map"
-        tools:ignore="MissingConstraints"
-        android:layout_marginTop="12dp"
-        android:textAlignment="center"
         style="@style/informative_text"
-        />
+        android:layout_marginTop="12dp"
+        android:text="@string/register_place_general_text_choose_map"
+        android:textAlignment="center"
+        android:textColor="@color/background"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/mapa_lugar"
         android:layout_width="match_parent"
         android:layout_height="440dp"
         android:layout_marginBottom="15dp"
-        android:background="#EFD0F4" />
+        android:background="@color/green" />
 
 
 

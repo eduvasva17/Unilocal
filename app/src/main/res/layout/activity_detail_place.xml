@@ -21,14 +21,14 @@
                 android:layout_height="230dp"
                 android:layout_marginTop="70dp"
                 android:background="@drawable/shape_detail_image"
-                android:backgroundTint="#C6C6C6" />
+                android:backgroundTint="@color/inactive" />
 
             <ImageView
                 android:id="@+id/place_image"
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:background="@drawable/shape_detail_image"
-                android:backgroundTint="#6A6A6A" />
+                android:backgroundTint="@color/app_color" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="5dp"
                     android:text="NameOwner"
-                    android:textColor="@color/white"
+                    android:textColor="@color/material_dynamic_neutral20"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -73,7 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nombre del Lugar"
-                    android:textColor="@color/white"
+                    android:textColor="@color/material_dynamic_neutral20"
                     android:textSize="40sp" />
 
                 <LinearLayout
@@ -85,14 +85,16 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_location" />
+                        android:foregroundTint="@color/black"
+                        android:src="@drawable/ic_location"
+                        android:tint="@color/material_dynamic_neutral20" />
 
                     <TextView
                         android:id="@+id/place_location"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Texto 2"
-                        android:textColor="@color/white" />
+                        android:textColor="@color/material_dynamic_neutral20" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -313,7 +315,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
                     android:layout_marginBottom="15dp"
-                    android:background="@color/yellow" />
+                    android:background="@color/green" />
 
             </LinearLayout>
 
